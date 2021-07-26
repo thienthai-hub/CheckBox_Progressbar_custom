@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!-- checbox_img-->
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
@@ -14,13 +15,14 @@
         android:layout_marginLeft="48dp"
         android:layout_marginTop="40dp"
         android:text="CheckBox"
-        android:buttonTint="@color/purple_200"
+            android:buttonTint="@color/purple_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:button="@drawable/checkbox_ct"/>
+            android:button="@drawable/checkbox_img"/>
 
+<!--checkbox_color-->
     <CheckBox
-        android:id="@+id/checkBox2"
+            android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -30,8 +32,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
 
+<!-- progressbar_color-->
     <ProgressBar
-        android:progressDrawable="@drawable/progressbar_ct"
+            android:progressDrawable="@drawable/progressbar_ct"
         android:secondaryProgress="50"
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
